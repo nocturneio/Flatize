@@ -1,0 +1,36 @@
+@for $i from 1 through 7 {
+  .mt-#{$i} {
+    margin-top: #{$i}0px !important;
+  }
+  .ml-#{$i} {
+    margin-left: #{$i}0px !important;
+  }
+  .mr-#{$i} {
+    margin-right: #{$i}0px !important;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i}0px !important;
+  }
+  .pt-#{$i} {
+    padding-top: #{$i}0px !important;
+  }
+  .pl-#{$i} {
+    padding-left: #{$i}0px !important;
+  }
+  .pr-#{$i} {
+    padding-right: #{$i}0px !important;
+  }
+  .pb-#{$i} {
+    padding-bottom: #{$i}0px !important;
+  }
+}
+
+@for $i from 1 through 10 {
+  $value: $i * 10;
+  .w-p-#{$value} {
+    width: #{$value}% !important;
+  }
+  .w-vh-#{$value} {
+    width: #{$value}vh !important;
+  }
+}

@@ -1,0 +1,314 @@
+$red: (
+        "red-50": #FEE8E6,
+        "red-100": #FCC5C1,
+        "red-200": #FB9E97,
+        "red-300": #F9776D,
+        "red-400": #F75A4E,
+        "red-500": #F63D2F,
+        "red-600": #F5372A,
+        "red-700": #F32F23,
+        "red-800": #F2271D,
+        "red-900": #EF1A12,
+        "red-a-100": #FFFFFF,
+        "red-a-200": #FFEAEA,
+        "red-a-400": #FFB9B7,
+        "red-a-700": #FFA09D
+);
+$blue: (
+        "blue-50": #E4F2FD,
+        "blue-100": #BBDFFB,
+        "blue-200": #8DC9F9,
+        "blue-300": #5FB3F6,
+        "blue-400": #3DA3F4,
+        "blue-500": #1B93F2,
+        "blue-600": #188BF0,
+        "blue-700": #1480EE,
+        "blue-800": #1076EC,
+        "blue-900": #0864E8,
+        "blue-a-100": #FFFFFF,
+        "blue-a-200": #DEEAFF,
+        "blue-a-400": #ABC9FF,
+        "blue-a-700": #91B9FF
+);
+$green: (
+        "cyan-50": #E8F9F1,
+        "cyan-100": #C5F1DD,
+        "cyan-200": #9FE7C7,
+        "cyan-300": #78DDB0,
+        "cyan-400": #5BD69F,
+        "cyan-500": #3ECF8E,
+        "cyan-600": #38CA86,
+        "cyan-700": #30C37B,
+        "cyan-800": #28BD71,
+        "cyan-900": #1BB25F,
+        "cyan-a-100": #E8FFF2,
+        "cyan-a-200": #B5FFD4,
+        "cyan-a-400": #82FFB6,
+        "cyan-a-700": #69FFA7
+);
+$yellow: (
+        "yellow-50": #FEFBE6,
+        "yellow-100": #FCF6C1,
+        "yellow-200": #FBF097,
+        "yellow-300": #F9EA6D,
+        "yellow-400": #F7E64E,
+        "yellow-500": #F6E12F,
+        "yellow-600": #F5DD2A,
+        "yellow-700": #F3D923,
+        "yellow-800": #F2D51D,
+        "yellow-900": #EFCD12,
+        "yellow-a-100": #FFFFFF,
+        "yellow-a-200": #FFFBEA,
+        "yellow-a-400": #FFF3B7,
+        "yellow-a-700": #FFEE9D
+);
+$cyan: (
+        "cyan-50": #E3FAFE,
+        "cyan-100": #B8F3FE,
+        "cyan-200": #89ECFD,
+        "cyan-300": #5AE4FC,
+        "cyan-400": #36DEFB,
+        "cyan-500": #13D8FA,
+        "cyan-600": #11D4F9,
+        "cyan-700": #0ECEF9,
+        "cyan-800": #0BC8F8,
+        "cyan-900": #06BFF6,
+        "cyan-a-100": #FFFFFF,
+        "cyan-a-200": #EBFAFF,
+        "cyan-a-400": #B8EDFF,
+        "cyan-a-700": #9EE6FF
+);
+$pink: (
+        "pink-50": #FCE5ED,
+        "pink-100": #F8BED2,
+        "pink-200": #F393B4,
+        "pink-300": #EE6895,
+        "pink-400": #EB477F,
+        "pink-500": #E72768,
+        "pink-600": #E42360,
+        "pink-700": #E01D55,
+        "pink-800": #DD174B,
+        "pink-900": #D70E3A,
+        "pink-a-100": #FFFFFF,
+        "pink-a-200": #FFCFD8,
+        "pink-a-400": #FF9CAE,
+        "pink-a-700": #FF8399
+);
+$light-blue: (
+        "l-blue-50": #E1F5FE,
+        "l-blue-100": #B3E5FC,
+        "l-blue-200": #81D4FA,
+        "l-blue-300": #4FC3F7,
+        "l-blue-400": #29B6F6,
+        "l-blue-500": #03A9F4,
+        "l-blue-600": #03A2F3,
+        "l-blue-700": #0298F1,
+        "l-blue-800": #028FEF,
+        "l-blue-900": #017EEC,
+        "l-blue-a-100": #FFFFFF,
+        "l-blue-a-200": #E0EFFF,
+        "l-blue-a-400": #ADD4FF,
+        "l-blue-a-700": #93C7FF
+);
+$purple: (
+        "purple-50": #F3E5F6,
+        "purple-100": #E1BEE7,
+        "purple-200": #CE93D8,
+        "purple-300": #BA68C8,
+        "purple-400": #AB47BC,
+        "purple-500": #9C27B0,
+        "purple-600": #9423A9,
+        "purple-700": #8A1DA0,
+        "purple-800": #801797,
+        "purple-900": #6E0E87,
+        "purple-a-100": #EFB8FF,
+        "purple-a-200": #E485FF,
+        "purple-a-400": #D852FF,
+        "purple-a-700": #D238FF
+);
+$deep-purple: (
+        "d-purple-50": #EDE8F7,
+        "d-purple-100": #D2C5EA,
+        "d-purple-200": #B59EDD,
+        "d-purple-300": #9777CF,
+        "d-purple-400": #805AC4,
+        "d-purple-500": #6A3DBA,
+        "d-purple-600": #6237B3,
+        "d-purple-700": #572FAB,
+        "d-purple-800": #4D27A3,
+        "d-purple-900": #3C1A94,
+        "d-purple-a-100": #D8CBFF,
+        "d-purple-a-200": #B298FF,
+        "d-purple-a-400": #8B65FF,
+        "d-purple-a-700": #784CFF
+);
+$indigo: (
+        "indigo-50": #EDEEFC,
+        "indigo-100": #D1D5F7,
+        "indigo-200": #B3B9F2,
+        "indigo-300": #959CED,
+        "indigo-400": #7E87E9,
+        "indigo-500": #6772E5,
+        "indigo-600": #5F6AE2,
+        "indigo-700": #545FDE,
+        "indigo-800": #4A55DA,
+        "indigo-900": #3942D3,
+        "indigo-a-100": #FFFFFF,
+        "indigo-a-200": #EBECFF,
+        "indigo-a-400": #B8BCFF,
+        "indigo-a-700": #9EA3FF
+);
+$teal: (
+        "cyan-50": #E1F3F2,
+        "cyan-100": #B5E2DE,
+        "cyan-200": #84CFC8,
+        "cyan-300": #53BCB2,
+        "cyan-400": #2EADA2,
+        "cyan-500": #099F91,
+        "cyan-600": #089789,
+        "cyan-700": #068D7E,
+        "cyan-800": #058374,
+        "cyan-900": #027262,
+        "cyan-a-100": #A1FFEF,
+        "cyan-a-200": #6EFFE6,
+        "cyan-a-400": #3BFFDD,
+        "cyan-a-700": #21FFD9
+);
+$dark-yellow: (
+        "d-yellow-50": #FEF7E1,
+        "d-yellow-100": #FDEBB5,
+        "d-yellow-200": #FBDE84,
+        "d-yellow-300": #F9D053,
+        "d-yellow-400": #F8C62E,
+        "d-yellow-500": #F7BC09,
+        "d-yellow-600": #F6B608,
+        "d-yellow-700": #F5AD06,
+        "d-yellow-800": #F3A505,
+        "d-yellow-900": #F19702,
+        "d-yellow-a-100": #FFFFFF,
+        "d-yellow-a-200": #FFF4E5,
+        "d-yellow-a-400": #FFDEB2,
+        "d-yellow-a-700": #FFD498
+);
+$orange: (
+        "orange-50": #FFF3E0,
+        "orange-100": #FEE0B3,
+        "orange-200": #FECB80,
+        "orange-300": #FEB64D,
+        "orange-400": #FDA726,
+        "orange-500": #FD9700,
+        "orange-600": #FD8F00,
+        "orange-700": #FC8400,
+        "orange-800": #FC7A00,
+        "orange-900": #FC6900,
+        "orange-a-100": #FFFFFF,
+        "orange-a-200": #FFF5EF,
+        "orange-a-400": #FFD4BC,
+        "orange-a-700": #FFC3A2
+);
+$dark-orange: (
+        "d-orange-50": #FFEBE4,
+        "d-orange-100": #FFCDBD,
+        "d-orange-200": #FFAB91,
+        "d-orange-300": #FF8964,
+        "d-orange-400": #FF7043,
+        "d-orange-500": #FF5722,
+        "d-orange-600": #FF4F1E,
+        "d-orange-700": #FF4619,
+        "d-orange-800": #FF3C14,
+        "d-orange-900": #FF2C0C,
+        "d-orange-a-100": #FFFFFF,
+        "d-orange-a-200": #FFF7F6,
+        "d-orange-a-400": #FFC9C3,
+        "d-orange-a-700": #FFB2A9
+);
+$brown: (
+        "brown-50": #EFEAE9,
+        "brown-100": #D6CBC7,
+        "brown-200": #BBA9A2,
+        "brown-300": #9F867D,
+        "brown-400": #8B6C61,
+        "brown-500": #765245,
+        "brown-600": #6E4B3E,
+        "brown-700": #634136,
+        "brown-800": #59382E,
+        "brown-900": #46281F,
+        "brown-a-100": #FFFFFF,
+        "brown-a-200": #FFF5EF,
+        "brown-a-400": #ffd9b7,
+        "brown-a-700": #ffb788
+);
+$grey: (
+        "grey-50": #fafafa,
+        "grey-100": #f5f5f5,
+        "grey-200": #eeeeee,
+        "grey-300": #e0e0e0,
+        "grey-400": #bdbdbd,
+        "grey-500": #9e9e9e,
+        "grey-600": #757575,
+        "grey-700": #616161,
+        "grey-800": #424242,
+        "grey-900": #212121
+);
+
+$shades: ("black": #000000, "white": #FFFFFF, "transparent": transparent);
+
+$colors: (
+        "red": $red,
+        "pink": $pink,
+        "purple": $purple,
+        "deep-purple": $deep-purple,
+        "indigo": $indigo,
+        "blue": $blue,
+        "light-blue": $light-blue,
+        "cyan": $cyan,
+        "teal": $teal,
+        "green": $green,
+        "yellow": $yellow,
+        "dark-yellow": $dark-yellow,
+        "orange": $orange,
+        "dark-orange": $dark-orange,
+        "brown": $brown,
+        "grey": $grey,
+        "shades": $shades
+) !default;
+
+@each $color_name, $color in $colors {
+  @each $color_type, $color_value in $color {
+    @if $color_type == "base" {
+      .#{$color_name} {
+        background-color: $color_value !important;
+      }
+      .#{$color_name}-text {
+        color: $color_value !important;
+      }
+    } @else if $color_name != "shades" {
+      .#{$color_name}.#{$color_type} {
+        background-color: $color_value !important;
+      }
+      .#{$color_name}-text.text-#{$color_type} {
+        color: $color_value !important;
+      }
+    }
+  }
+}
+
+@each $color, $color_value in $shades {
+  .#{$color} {
+    background-color: $color_value !important;
+  }
+  .#{$color}-text {
+    color: $color_value !important;
+  }
+}
+
+@function color($color, $type) {
+  @if map-has-key($colors, $color) {
+    $curr_color: map-get($colors, $color);
+    @if map-has-key($curr_color, $type) {
+      @return map-get($curr_color, $type);
+    }
+  }
+  @warn "Unknown `#{name}` in $colors.";
+  @return null;
+}
