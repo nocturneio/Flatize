@@ -18,6 +18,10 @@
 # Todos
 
  - Soon...
+ 
+# Collaborators
+
+  - [GSasB](https://github.com/GSasB)
 
 # License
 
