@@ -1,4 +1,4 @@
-[![N|Solid](https://i.imgur.com/U9ARGaH.png)](https://flatize.ga)
+[![N|Solid](http://i.imgur.com/Cc2EW4m.png)](https://flatize.ga)
 
 ## Flatize, a custom CSS Framework made for Flat Design.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
