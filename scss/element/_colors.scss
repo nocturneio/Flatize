@@ -159,20 +159,20 @@ $indigo: (
         "indigo-a-700": #9EA3FF
 );
 $teal: (
-        "cyan-50": #E1F3F2,
-        "cyan-100": #B5E2DE,
-        "cyan-200": #84CFC8,
-        "cyan-300": #53BCB2,
-        "cyan-400": #2EADA2,
-        "cyan-500": #099F91,
-        "cyan-600": #089789,
-        "cyan-700": #068D7E,
+        "teal-50": #E1F3F2,
+        "teal-100": #B5E2DE,
+        "teal-200": #84CFC8,
+        "teal-300": #53BCB2,
+        "teal-400": #2EADA2,
+        "teal-500": #099F91,
+        "teal-600": #089789,
+        "teal-700": #068D7E,
         "cyan-800": #058374,
-        "cyan-900": #027262,
-        "cyan-a-100": #A1FFEF,
-        "cyan-a-200": #6EFFE6,
-        "cyan-a-400": #3BFFDD,
-        "cyan-a-700": #21FFD9
+        "teal-900": #027262,
+        "teal-a-100": #A1FFEF,
+        "teal-a-200": #6EFFE6,
+        "teal-a-400": #3BFFDD,
+        "teal-a-700": #21FFD9
 );
 $dark-yellow: (
         "d-yellow-50": #FEF7E1,
@@ -251,6 +251,16 @@ $grey: (
         "grey-900": #212121
 );
 
+$gradient: (
+        "cyanToPurple" : (#25ddf5, #53f),
+        "blueToPink" : (#3494e6, #ec6ead),
+        "greenToBlue" : (#67b26f, #4ca2cd),
+        "magentaToOrange" : (#ee0979, #ff6a00),
+        "greyToCyan" : (#2c3e50, #4ca1af),
+        "cyanToMagenta" : (#16bffd, #cb3066),
+        "redToYellow" : (#c02425, #f0cb35),
+);
+
 $shades: ("black": #000000, "white": #FFFFFF, "transparent": transparent);
 
 $colors: (
@@ -281,6 +291,12 @@ $colors: (
     .text-#{$color_type} {
       color: $color_value !important;
     }
+  }
+}
+
+@each $gradient_name, $colors in $gradient {
+  .gradient-#{$gradient_name} {
+    background-image: linear-gradient(15deg, nth($colors, 1), nth($colors, 2)) !important;
   }
 }
 

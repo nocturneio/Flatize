@@ -1,41 +1,41 @@
 /* Responsive helpers */
 
-.is-hidden {
+.hidden {
   display: none !important;
 }
 
 @media screen and (max-width: 768px) {
-  .is-hidden-mobile {
+  .hidden-mobile {
     display: none !important;
   }
 }
 
 @media screen and (min-width: 769px) {
-  .is-hidden-tablet {
+  .hidden-tablet {
     display: none !important;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 979px) {
-  .is-hidden-tablet-only {
+  .hidden-tablet-only {
     display: none !important;
   }
 }
 
 @media screen and (max-width: 979px) {
-  .is-hidden-touch {
+  .hidden-touch {
     display: none !important;
   }
 }
 
 @media screen and (min-width: 980px) {
-  .is-hidden-desktop {
+  .hidden-desktop {
     display: none !important;
   }
 }
 
 @media screen and (min-width: 980px) and (max-width: 1179px) {
-  .is-hidden-desktop-only {
+  .hidden-desktop-only {
     display: none !important;
   }
 }

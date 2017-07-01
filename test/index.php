@@ -18,50 +18,86 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
-<div class="container">
-    <div class="col-12">
-        <img src="https://i.imgur.com/U9ARGaH.png">
+<header>
+    <nav class="nav shadow">
+        <div class="nav-left">
 
-
-        <h3 class="mt-5 text-cyan-400"><b>Grid</b></h3>
-        <hr>
-        <div class="row">
-            <h4 class="text-cyan-300">col-1</h4>
-			<?php for ($int = 1; $int < 13; $int++) { ?>
-                <div class="col-1">
-                <div class="green-500 w-100"><h4 class="text-centered text-white circle"><?= $int ?></h4></div>
-                </div><?php } ?>
-            <!-- Replace because cancer par br -->
-            <div class="mt-2">&nbsp;</div>
-            <h4 class="text-cyan-300">col-3-sm > only on phone</h4>
-			<?php for ($int = 1; $int < 5; $int++) { ?>
-                <div class="col-3-sm">
-                <div class="red-500 w-100"><h4 class="text-centered text-white circle"><?= $int ?></h4></div>
-                </div><?php } ?>
         </div>
+        <span class="nav-toggle"><span></span><span></span><span></span></span>
+        <div class="nav-center">
+            <a class="nav-logo"><img src="https://i.imgur.com/U9ARGaH.png" alt="Flatize"></a>
+        </div>
+        <div class="nav-right nav-menu">
 
-        <h3 class="mt-5 text-cyan-400">Image</h3>
-        <hr>
-        <div class="row">
-            <div class="card-panel">
-                <h1 class="text-cyan-900">Heading h1</h1>
-                <h2 class="text-cyan-900">Heading h2</h2>
-                <h3 class="text-cyan-900">Heading h3</h3>
-                <h4 class="text-cyan-900">Heading h4</h4>
-                <h5 class="text-cyan-900">Heading h5</h5>
-                <h6 class="text-cyan-900">Heading h6</h6>
+        </div>
+    </nav>
+</header>
 
-                <h1 class="text-cyan-900 truncate" style="font-size: 250px">Heading h6</h1>
+<main>
+    <section class="hero gradient-cyanToPurple">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Hero title
+                </h1>
+                <h2 class="subtitle">
+                    Hero subtitle
+                </h2>
             </div>
         </div>
+    </section>
+</main>
 
-        <h3 class="mt-5 text-cyan-400">Button</h3>
+
+<div class="container">
+    <div class="col-12">
+        <h3 class="mt-5 text-blue-700 bold">Grid</h3>
+        <hr>
+        <blockquote>
+            <h4 class="text-l-blue-500 bold">col-xs-3 > On large computer</h4>
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="box cyan-500 text-white text-centered">
+                        1
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="box cyan-500 text-white text-centered">
+                        2
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="box cyan-500 text-white text-centered">
+                        3
+                    </div>
+                </div>
+            </div>
+        </blockquote>
+
+        <h3 class="mt-5 text-blue-700 bold">Image</h3>
+        <hr>
+        <div class="row">
+            <h1 class="text-cyan-900">Heading h1</h1>
+            <h2 class="text-cyan-900">Heading h2</h2>
+            <h3 class="text-cyan-900">Heading h3</h3>
+            <h4 class="text-cyan-900">Heading h4</h4>
+            <h5 class="text-cyan-900">Heading h5</h5>
+            <h6 class="text-cyan-900">Heading h6</h6>
+
+            <h1 class="text-cyan-900 truncate" style="font-size: 250px">Heading h6</h1>
+
+
+        </div>
+
+        <h3 class="mt-5 text-blue-700 bold">Button</h3>
         <hr>
         <div class="row">
             <a class="button">Test</a>
+            <a class="button green-600 text-white">Test</a>
+            <a class="button cyan-400 text-white">Test</a>
         </div>
 
-        <h3 class="mt-5 text-cyan-400">Image</h3>
+        <h3 class="mt-5 text-blue-700 bold">Image</h3>
         <hr>
         <div class="row">
             <div class="row">
