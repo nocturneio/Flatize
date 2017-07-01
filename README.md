@@ -5,7 +5,6 @@
 [![Travis CI](https://travis-ci.org/PHClement/Flatize.svg?branch=master)](https://travis-ci.org/PHClement/Flatize.svg?branch=master)
 [![Code Climate](https://codeclimate.com/github/PHClement/Flatize.png)](https://codeclimate.com/github/PHClement/Flatize)
 
-----
   - Flat UI design
   - Colored UI
   - Responsive
