@@ -1,0 +1,20 @@
+{
+  "name": "phclement/flatize",
+  "version": "2.2.10",
+  "description": "Flatiz, a custom CSS Framework made for Flat Design.",
+  "homepage": "https://flatiz.ga",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "PHClement",
+      "email": "clement@privateheberg.com"
+    },
+    {
+      "name": "GsasB",
+      "email": "guillaume@privateheberg.com"
+    }
+  ],
+  "require": {
+    "panique/php-sass": "1.0"
+  }
+}
