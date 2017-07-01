@@ -31,20 +31,20 @@ $blue: (
         "blue-a-700": #91B9FF
 );
 $green: (
-        "cyan-50": #E8F9F1,
-        "cyan-100": #C5F1DD,
-        "cyan-200": #9FE7C7,
-        "cyan-300": #78DDB0,
-        "cyan-400": #5BD69F,
-        "cyan-500": #3ECF8E,
-        "cyan-600": #38CA86,
-        "cyan-700": #30C37B,
-        "cyan-800": #28BD71,
-        "cyan-900": #1BB25F,
-        "cyan-a-100": #E8FFF2,
-        "cyan-a-200": #B5FFD4,
-        "cyan-a-400": #82FFB6,
-        "cyan-a-700": #69FFA7
+        "green-50": #E8F9F1,
+        "green-100": #C5F1DD,
+        "green-200": #9FE7C7,
+        "green-300": #78DDB0,
+        "green-400": #5BD69F,
+        "green-500": #3ECF8E,
+        "green-600": #38CA86,
+        "green-700": #30C37B,
+        "green-800": #28BD71,
+        "green-900": #1BB25F,
+        "green-a-100": #E8FFF2,
+        "green-a-200": #B5FFD4,
+        "green-a-400": #82FFB6,
+        "green-a-700": #69FFA7
 );
 $yellow: (
         "yellow-50": #FEFBE6,
@@ -275,30 +275,12 @@ $colors: (
 
 @each $color_name, $color in $colors {
   @each $color_type, $color_value in $color {
-    @if $color_type == "base" {
-      .#{$color_name} {
-        background-color: $color_value !important;
-      }
-      .#{$color_name}-text {
-        color: $color_value !important;
-      }
-    } @else if $color_name != "shades" {
-      .#{$color_name}.#{$color_type} {
-        background-color: $color_value !important;
-      }
-      .#{$color_name}-text.text-#{$color_type} {
-        color: $color_value !important;
-      }
+    .#{$color_type} {
+      background-color: $color_value !important;
     }
-  }
-}
-
-@each $color, $color_value in $shades {
-  .#{$color} {
-    background-color: $color_value !important;
-  }
-  .#{$color}-text {
-    color: $color_value !important;
+    .text-#{$color_type} {
+      color: $color_value !important;
+    }
   }
 }
 

@@ -1,4 +1,9 @@
+/* Margin/Padding helpers */
+
 @for $i from 1 through 7 {
+  .m-#{$i} {
+    margin: #{$i}0px !important;
+  }
   .mt-#{$i} {
     margin-top: #{$i}0px !important;
   }
@@ -10,6 +15,9 @@
   }
   .mb-#{$i} {
     margin-bottom: #{$i}0px !important;
+  }
+  .p-#{$i} {
+    padding: #{$i}0px !important;
   }
   .pt-#{$i} {
     padding-top: #{$i}0px !important;
@@ -25,6 +33,16 @@
   }
 }
 
+.marginless {
+  margin: 0 !important;
+}
+
+.paddingless {
+  padding: 0 !important;
+}
+
+/* Width helpers */
+
 @for $i from 1 through 10 {
   $value: $i * 10;
   .w-p-#{$value} {
@@ -33,4 +51,65 @@
   .w-vh-#{$value} {
     width: #{$value}vh !important;
   }
+}
+
+/* Float helpers */
+
+.clearfix:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+/* Overlay helpers */
+
+.overlay {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Text helpers */
+
+.text-centered {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Select helpers */
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Aligment helpers */
+
+.vertical-center {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }

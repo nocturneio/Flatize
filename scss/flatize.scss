@@ -7,10 +7,17 @@
  * Licensed under MIT (https://github.com/PHClement/Flatize/blob/master/LICENSE)
  */
 
+@import 'element/_variables.scss';
 @import 'element/_main.scss';
 @import 'element/_grid.scss';
-@import 'element/_helpers.scss';
+@import 'element/_text.scss';
 @import 'element/_colors.scss';
+@import 'element/_helpers.scss';
+@import 'element/_responsive.scss';
+@import 'element/_button.scss';
+@import 'element/_effect.scss';
+@import 'element/_image.scss';
+
 
 
 
