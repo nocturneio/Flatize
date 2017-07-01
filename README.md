@@ -19,7 +19,7 @@
 
  - Soon...
  
-# Collaborators
+# Contributors
 
   - [GSasB](https://github.com/GSasB)
 
