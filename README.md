@@ -1,6 +1,10 @@
 [![N|Solid](https://i.imgur.com/XlglYV3.png)](https://flatize.cf)
 
 ## Flatiz, a custom CSS Framework made for Flat Design.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Travis CI](https://travis-ci.org/PHClement/Flatize.svg?branch=master)](https://travis-ci.org/PHClement/Flatize.svg?branch=master)
+[![Code Climate](https://codeclimate.com/github/PHClement/Flatize.png)](https://codeclimate.com/github/PHClement/Flatize)
+
 ----
   - Flat UI design
   - Colored UI
@@ -9,19 +13,16 @@
   - Lot of utils...
 
 # New Features!
-----
 
   - Soon...
 
 # Todos
-----
 
  - Soon...
 
 # License
-----
 
-MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-**Free Software, Hell Yeah!**
+**Open source <3**
