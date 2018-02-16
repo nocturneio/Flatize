@@ -4,4 +4,13 @@
  * Licensed under MIT (https://github.com/PHClement/Flatize/blob/master/LICENSE)
  */
 
- import('elements/_navigation.js');
+
+// ScrollTop
+
+function scrollToElement(id) {
+    $(document).ready(function () {
+        $('html, body').animate({
+            scrollTop: ($(id).offset().top)
+        },500);
+    });
+}

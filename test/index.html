@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>Flatize: A custom CSS Framework made for Flat Design.</title>
+
+    <meta name="theme-color" content="#48cae8">
+    <meta name="description" content="A custom CSS Framework made for Flat Design."/>
+    <meta name="keywords" content="css, framework, flat, ui, gris, responsive, js, design, web"/>
+    <meta name="copyright" content="© Flatize"/>
+
+    <link rel="icon" type="image/png" href="assets/favicon.png"/>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="../scss/flatize.css" rel="stylesheet"/>
+    <link href="assets/app.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <nav class="nav shadow">
+        <div class="container">
+            <div class="nav-left">
+                <a class="nav-logo"><img src="https://i.imgur.com/U9ARGaH.png" alt="Flatize"></a>
+            </div>
+            <span class="nav-toggle"><span></span><span></span><span></span></span>
+            <div class="nav-right nav-menu">
+                <a class="nav-item" href="#" onclick="scrollToElement('#grid')"><i class="fas fa-th text-blue-600"></i> Grid</a>
+                <a class="nav-item" href="#" onclick="scrollToElement('#text')"><i class="fas fa-font text-blue-600"></i> Text</a>
+                <a class="nav-item" href="#" onclick="scrollToElement('#button')"><i class="far fa-square text-blue-600"></i> Button</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero gradient-cyanToPurple">
+        <div class="hero-body">
+            <div class="container">
+                <h4 class="title text-white">
+                    Flatize
+                </h4>
+                <h6 class="subtitle text-white">
+                    Free and open source CSS framework based on Flexbox made by Nocturne.
+                </h6>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<div class="container">
+    <div class="col-12">
+        <div class="row mt-5" id="grid">
+            <div class="col-lg-3">
+                <h4 class="text-black title is-2"><i class="fas fa-th text-blue-700"></i><br>Grid</h4>
+                <h6 class="subtitle text-grey-600 is-6">A simple way to build responsive columns.</h6>
+            </div>
+            <div class="col-lg-9 mt-5">
+                <div class="mt-2">
+                    <h5 class="title text-grey-800 is-4">Auto</h5>
+                    <h6 class="subtitle text-grey-500 is-6">Grid columns size automatically</h6>
+                    <div class="row">
+                        <div class="col-xs">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                        <div class="col-xs">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <h5 class="title text-grey-800 is-4">Desktop</h5>
+                    <h6 class="subtitle text-grey-500 is-6">Grid columns on large computer</h6>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <h5 class="title text-grey-800 is-4">Tablet</h5>
+                    <h6 class="subtitle text-grey-500 is-6">Grid columns on tablet device</h6>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <h5 class="title text-grey-800 is-4">Mobile</h5>
+                    <h6 class="subtitle text-grey-500 is-6">Grid columns on tablet device</h6>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-box grey-100 text-black"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="mt-5 text-blue-700 bold">Image</h3>
+        <hr>
+        <div class="row">
+            <h1 class="text-cyan-900">Heading h1</h1>
+            <h2 class="text-cyan-900">Heading h2</h2>
+            <h3 class="text-cyan-900">Heading h3</h3>
+            <h4 class="text-cyan-900">Heading h4</h4>
+            <h5 class="text-cyan-900">Heading h5</h5>
+            <h6 class="text-cyan-900">Heading h6</h6>
+
+            <h1 class="text-cyan-900 truncate" style="font-size: 250px">Heading h6</h1>
+
+
+        </div>
+
+        <h3 class="mt-5 text-blue-700 bold" id="button">Button</h3>
+        <hr>
+        <div class="row">
+            <a class="button">Test</a>
+            <a class="button green-600 text-white">Test</a>
+            <a class="button cyan-400 text-white">Test</a>
+        </div>
+
+        <h3 class="mt-5 text-blue-700 bold">Image</h3>
+        <hr>
+        <div class="row">
+            <div class="row">
+                <div class="col-6">
+                    <h4 class="text-cyan-300">Responsive image (fullwidth)</h4>
+                    <img src="https://via.placeholder.com/150x150" class="responsive-img">
+                </div>
+                <div class="col-6">
+                    <h4 class="text-cyan-300">Circle image</h4>
+                    <img src="https://via.placeholder.com/150x150" class="circle">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/libs/jquery.min.js"></script>
+<script src="../js/flatize.js"></script>
+
+</body>
+</html>

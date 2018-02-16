@@ -12,6 +12,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   padding: 10px;
+  color: #2e2e2e;
   font-family: "Product Sans", sans-serif;
   font-weight: 600 !important;
 }
@@ -51,12 +52,21 @@
 
 .nav-item a,
 a.nav-item {
-  color: #69707a;
+  color: #2d2e33;
+  transition: all 0.2s ease;
+}
+
+.nav-item {
+  i {
+    margin-right: 5px;
+    margin-top: -3px;
+  }
 }
 
 .nav-item a:hover,
 a.nav-item:hover {
   color: #222324;
+  border-bottom: #1480EE 2px solid;
 }
 
 .nav-item a.is-active,
@@ -206,7 +216,7 @@ a.nav-item.is-tab.is-active {
 }
 
 .nav > .container > .nav-left > .nav-item:first-child:not(.is-tab) {
-  margin-left: 20%;
+  margin-left: 30%;
   padding-left: 0;
 }
 

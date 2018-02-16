@@ -42,7 +42,7 @@
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  padding: 40px 20px;
+  padding: 50px 20px;
 }
 
 @media screen and (min-width: 980px) {
@@ -58,6 +58,8 @@
   -ms-flex-align: stretch;
   align-items: stretch;
   background-color: #fff;
+  min-height: 200px;
+  color: #fff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
