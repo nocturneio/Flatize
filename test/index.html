@@ -26,9 +26,12 @@
             </div>
             <span class="nav-toggle"><span></span><span></span><span></span></span>
             <div class="nav-right nav-menu">
-                <a class="nav-item" href="#" onclick="scrollToElement('#grid')"><i class="fas fa-th text-blue-600"></i> Grid</a>
-                <a class="nav-item" href="#" onclick="scrollToElement('#text')"><i class="fas fa-font text-blue-600"></i> Text</a>
-                <a class="nav-item" href="#" onclick="scrollToElement('#button')"><i class="far fa-square text-blue-600"></i> Button</a>
+                <a class="nav-item" href="#" onclick="scrollToElement('#grid')"><i class="fas fa-th text-blue-600"></i>
+                    Grid</a>
+                <a class="nav-item" href="#" onclick="scrollToElement('#text')"><i
+                        class="fas fa-font text-blue-600"></i> Text</a>
+                <a class="nav-item" href="#" onclick="scrollToElement('#button')"><i
+                        class="far fa-square text-blue-600"></i> Button</a>
             </div>
         </div>
     </nav>
@@ -44,6 +47,7 @@
                 <h6 class="subtitle text-white">
                     Free and open source CSS framework based on Flexbox made by Nocturne.
                 </h6>
+                <a class="button text-blue-600" href="../scss/flatize.css" download="Flatize.css">Download</a>
             </div>
         </div>
     </section>
@@ -52,105 +56,205 @@
 
 <div class="container">
     <div class="col-12">
-        <div class="row mt-5" id="grid">
-            <div class="col-lg-3">
-                <h4 class="text-black title is-2"><i class="fas fa-th text-blue-700"></i><br>Grid</h4>
-                <h6 class="subtitle text-grey-600 is-6">A simple way to build responsive columns.</h6>
-            </div>
-            <div class="col-lg-9 mt-5">
-                <div class="mt-2">
-                    <h5 class="title text-grey-800 is-4">Auto</h5>
-                    <h6 class="subtitle text-grey-500 is-6">Grid columns size automatically</h6>
-                    <div class="row">
-                        <div class="col-xs">
-                            <div class="col-box grey-100 text-black"></div>
-                        </div>
-                        <div class="col-xs">
-                            <div class="col-box grey-100 text-black"></div>
+        <div id="grid">
+            <div class="row mt-5">
+                <div class="col-lg-3">
+                    <h4 class="text-black title size-2"><i class="fas fa-th text-blue-700"></i><br>Grid</h4>
+                    <h6 class="subtitle text-grey-600 size-6">A simple way to build responsive columns.</h6>
+                </div>
+                <div class="col-lg-9 mt-5">
+                    <div class="mt-2">
+                        <h5 class="title text-grey-800 size-4">Auto</h5>
+                        <h6 class="subtitle text-grey-500 size-6">Grid columns size automatically</h6>
+                        <div class="row">
+                            <div class="col-xs">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
+                            <div class="col-xs">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="mt-2">
-                    <h5 class="title text-grey-800 is-4">Desktop</h5>
-                    <h6 class="subtitle text-grey-500 is-6">Grid columns on large computer</h6>
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="col-box grey-100 text-black"></div>
-                        </div>
-                        <div class="col-xs-4">
-                            <div class="col-box grey-100 text-black"></div>
-                        </div>
-                        <div class="col-xs-4">
-                            <div class="col-box grey-100 text-black"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-2">
-                    <h5 class="title text-grey-800 is-4">Tablet</h5>
-                    <h6 class="subtitle text-grey-500 is-6">Grid columns on tablet device</h6>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="col-box grey-100 text-black"></div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="col-box grey-100 text-black"></div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="col-box grey-100 text-black"></div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="col-box grey-100 text-black"></div>
+                    <div class="mt-2">
+                        <h5 class="title text-grey-800 size-4">Desktop</h5>
+                        <h6 class="subtitle text-grey-500 size-6">Grid columns on large computer</h6>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="mt-2">
-                    <h5 class="title text-grey-800 is-4">Mobile</h5>
-                    <h6 class="subtitle text-grey-500 is-6">Grid columns on tablet device</h6>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="col-box grey-100 text-black"></div>
+                    <div class="mt-2">
+                        <h5 class="title text-grey-800 size-4">Tablet</h5>
+                        <h6 class="subtitle text-grey-500 size-6">Grid columns on tablet device</h6>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
                         </div>
-                        <div class="col-md-2">
-                            <div class="col-box grey-100 text-black"></div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="col-box grey-100 text-black"></div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="col-box grey-100 text-black"></div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="col-box grey-100 text-black"></div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="col-box grey-100 text-black"></div>
+                    </div>
+                    <div class="mt-2">
+                        <h5 class="title text-grey-800 size-4">Mobile</h5>
+                        <h6 class="subtitle text-grey-500 size-6">Grid columns on tablet device</h6>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="col-box grey-100 text-black"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <h3 class="mt-5 text-blue-700 bold">Image</h3>
-        <hr>
-        <div class="row">
-            <h1 class="text-cyan-900">Heading h1</h1>
-            <h2 class="text-cyan-900">Heading h2</h2>
-            <h3 class="text-cyan-900">Heading h3</h3>
-            <h4 class="text-cyan-900">Heading h4</h4>
-            <h5 class="text-cyan-900">Heading h5</h5>
-            <h6 class="text-cyan-900">Heading h6</h6>
+        <hr class="mt-5">
 
-            <h1 class="text-cyan-900 truncate" style="font-size: 250px">Heading h6</h1>
+        <div id="text">
+            <div class="row mt-5">
+                <div class="col-lg-3">
+                    <h4 class="text-black title size-2"><i class="fas fa-font text-blue-700"></i><br>Text</h4>
+                    <h6 class="subtitle text-grey-600 size-6">Change the size and color of the text for one or multiple
+                        viewport width.</h6>
+                </div>
+                <div class="col-lg-9 mt-5">
+                    <div>
+                        <h5 class="title text-grey-800 size-4">Paragraph</h5>
+                        <h6 class="subtitle text-grey-500 size-6">There are 6 sizes available</h6>
+                        <h1 class="text-grey-600">Heading h1</h1>
+                        <h2 class="text-grey-500">Heading h2</h2>
+                        <h3 class="text-grey-400">Heading h3</h3>
+                        <h4 class="text-grey-300">Heading h4</h4>
+                        <h5 class="text-grey-200">Heading h5</h5>
+                        <h6 class="text-grey-100">Heading h6</h6>
+                    </div>
+                    <div>
+                        <h5 class="title text-grey-800 size-4 mt-5">Titles</h5>
+                        <h6 class="subtitle text-grey-500 size-6">When you combine a title and a subtitle, they move
+                            closer together.</h6>
 
+                        <p class="title text-grey-400 size-1 mt-2">Cool title</p>
+                        <p class="subtitle text-grey-300 size-3">Size 3</p>
 
+                        <p class="title text-grey-400 size-2 mt-2">Cool title 2</p>
+                        <p class="subtitle text-grey-300 size-4">Size 4</p>
+
+                        <p class="title text-grey-400 size-3 mt-2">Cool title 3</p>
+                        <p class="subtitle text-grey-300 size-5">Size 5</p>
+                    </div>
+                    <div>
+                        <h5 class="title text-grey-800 size-4 mt-5">Quotation</h5>
+                        <h6 class="subtitle text-grey-500 size-6">Need a space for writing your think ?</h6>
+                        <blockquote>
+                            <p class="text-grey-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a
+                                sagittis sapien, ut auctor lectus. Phasellus varius purus eget auctor fermentum. Donec
+                                elit diam, gravida quis luctus sed, accumsan sed ipsum. Fusce eget consequat nisi.
+                                Praesent efficitur quam non neque iaculis sagittis. Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Suspendisse potenti. Vivamus egestas malesuada ipsum
+                                ultrices dictum.</p>
+                        </blockquote>
+                    </div>
+                    <div>
+                        <h5 class="title text-grey-800 size-4 mt-5">Code</h5>
+                        <h6 class="subtitle text-grey-500 size-6">Need to integrate code.</h6>
+                        <code>
+                            public function likeFlatize(){<br>
+                            &nbsp;&nbsp;&nbsp;like++;<br>
+                            }
+                        </code>
+                    </div>
+                    <div>
+                        <h5 class="title text-grey-800 size-4 mt-5">Truncate</h5>
+                        <h6 class="subtitle text-grey-500 size-6">If your string is too long.</h6>
+                        <h3 class="text-grey-400 truncate">Flatize is the best CSS framework of the world</h3>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <h3 class="mt-5 text-blue-700 bold" id="button">Button</h3>
-        <hr>
-        <div class="row">
-            <a class="button">Test</a>
-            <a class="button green-600 text-white">Test</a>
-            <a class="button cyan-400 text-white">Test</a>
+        <hr class="mt-5">
+
+        <div id="button">
+            <div class="row mt-5">
+                <div class="col-lg-3">
+                    <h4 class="text-black title size-2"><i class="fas fa-square text-blue-700"></i><br>Button</h4>
+                    <h6 class="subtitle text-grey-600 size-6">The classic button, in different colors, sizes, and
+                        states.</h6>
+                </div>
+                <div class="col-lg-9 mt-5">
+                    <div>
+                        <h5 class="title text-grey-800 size-4">Default</h5>
+                        <h6 class="subtitle text-grey-500 size-6">The classic button and his variant.</h6>
+                        <a class="button">Button</a>
+                        <a class="button blue-500 text-white">Button</a>
+                        <a class="button red-500 text-white">Button</a>
+                        <a class="button green-500 text-white">Button</a>
+                        <a class="button orange-400 text-white">Button</a>
+                    </div>
+                    <div class="mt-5">
+                        <h5 class="title text-grey-800 size-4">Size</h5>
+                        <h6 class="subtitle text-grey-500 size-6">Different size.</h6>
+                        <a class="button size-small">Button</a>
+                        <a class="button size-medium">Button</a>
+                        <a class="button size-large">Button</a>
+                    </div>
+                    <div class="mt-5">
+                        <h5 class="title text-grey-800 size-4">Rounded</h5>
+                        <h6 class="subtitle text-grey-500 size-6">Don't like square ?</h6>
+                        <a class="button is-rounded">Button</a>
+                        <a class="button blue-500 text-white is-rounded">Button</a>
+                        <a class="button red-500 text-white is-rounded">Button</a>
+                        <a class="button green-500 text-white is-rounded">Button</a>
+                        <a class="button orange-400 text-white is-rounded">Button</a>
+                    </div>
+                    <div class="mt-5">
+                        <h5 class="title text-grey-800 size-4">Disabled</h5>
+                        <h6 class="subtitle text-grey-500 size-6">This button mustn't be touched ?</h6>
+                        <a class="button" disabled>Button</a>
+                        <a class="button blue-500 text-white" disabled>Button</a>
+                        <a class="button red-500 text-white" disabled>Button</a>
+                        <a class="button green-500 text-white" disabled>Button</a>
+                        <a class="button orange-400 text-white" disabled>Button</a>
+                    </div>
+                    <div class="mt-5">
+                        <h5 class="title text-grey-800 size-4">Icons</h5>
+                        <h6 class="subtitle text-grey-500 size-6">Need more than only text ?</h6>
+                        <a class="button"><i class="fas fa-home pull-left"></i> Button</a>
+                        <a class="button blue-500 text-white"><i class="fas fa-info"></i></a>
+                        <a class="button red-500 text-white"><i class="fas fa-times"></i> Close</a>
+                        <a class="button green-500 text-white"><i class="fas fa-check "></i> Done</a>
+                        <a class="button orange-400 text-white"><i class="fas fa-exclamation-triangle"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <h3 class="mt-5 text-blue-700 bold">Image</h3>
