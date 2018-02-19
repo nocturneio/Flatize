@@ -15,14 +15,6 @@
 
   - Soon...
 
-# Todos
-
- - Soon...
- 
-# Contributors
-
-  - [GSasB](https://github.com/GSasB)
-
 # License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
